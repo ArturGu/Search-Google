@@ -1,0 +1,109 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.index{
+    background-image: url(../img/background-main.jpg);
+}
+.pictures{
+    background-image: url(../img/background-pictures.jpg);
+}
+.advanced{
+    background-image: url(../img/background-advanced.jpg);
+}
+.main__container {
+    width: 1280px;
+    margin: 0px auto;
+    position: relative;
+}
+.main__top {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: end;
+}
+.main__items {
+    display: flex;
+    column-gap: 30px;
+}
+.main__item {
+    font-size: 16px;
+}
+.main__search {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.main__button{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+#pictures-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.main__field {
+    width: 550px;
+    height: 45px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    padding-left: 50px;
+    font-size: 15px;
+    position: relative;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-y: center;
+    background-position-x: 20px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.advanced__search {
+    background-color: #202124;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.advanced__title {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.advanced__block {
+    display: inline-flex;
+    column-gap: 50px;
+    padding: 20px 30px; 
+}
+.advanced__items {   
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.advanced__item {
+    color: white;
+    font-size: 16px;
+}
+#advanced-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+    align-items: end;
+}
+.advanced__field {
+    width: 400px;
+    height: 25px;
+    padding: 0px 10px;
+    border-radius: 2px;
+}
+.advanced__btn {
+    margin-top: 20px;
+    border-radius: 2px;
+}
